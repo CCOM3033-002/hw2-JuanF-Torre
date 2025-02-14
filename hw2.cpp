@@ -1,17 +1,26 @@
-// escriba su nombre, username en github y numero de estudiante en el header
-// incluya cualquier colaboración que haga
+/*
+Asignacion 2: Suma de dos fracciones
+Juan F. Torré García
+801-24-9424
+Profa. Lillian Gonzalez Albino 
+CCOM3033-002
+17 de febrero de el 2025
+*/
+
 #include<iostream>
 using namespace std;
 
 
 int main(){
 
+  //desplegar el proposito del programa
   cout << "Este programa suma 2 fracciones.\n" << endl;
   
-
+  //declarar las variables para los inputs
   int num1, num2;
   int den1, den2;
 
+  //pedirle los numeradores y denominadores individualmente al usuario
   cout << "Entre el numerador de la primera fraccion: ";
   cin >> num1;
 
@@ -31,8 +40,6 @@ int main(){
   //desplegar resultado
   cout << "La suma es: " << suma_num << "/" << suma_den; 
 
- 
 
-  
   return 0;
 }
